@@ -18,7 +18,11 @@ const App = ({pro}) =>{
       )
   }
   )
-  return tags 
+  return (
+          <div id="container">
+              {tags}
+          </div>
+        ) 
 
 }
 

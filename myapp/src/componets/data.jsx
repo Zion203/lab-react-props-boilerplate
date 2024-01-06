@@ -1,6 +1,6 @@
 import React from 'react'
 import ele from "../images/elephant.jpeg"
-const data = () => {
+const Data = () => {
     const imagearr = [
         {
             id : 1,
@@ -23,4 +23,4 @@ const data = () => {
 }
 
 
-export default data
+export default Data

@@ -1,5 +1,5 @@
 import React, {  Component } from 'react'
-
+import './App.css'
 
 export default class AppClass extends Component{
     
@@ -15,7 +15,10 @@ export default class AppClass extends Component{
             )
             
         })
-        console.log(tags)
-        return {tags}
+        return (
+        <div id="container">
+            {tags}
+        </div>
+        )
     }
 }
